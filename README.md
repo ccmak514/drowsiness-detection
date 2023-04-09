@@ -23,7 +23,7 @@ https://colab.research.google.com/drive/1QCU_dCR0ozI8j6X2btEDCsaUk5p_b1uw?usp=sh
 The annotation of the data is done on Roboflow. Upload the images downloaded from Kaggle to Roboflow and annotate the state of active and fatigued manually as follows:
 <img width="1107" alt="anotation" src="https://user-images.githubusercontent.com/101066418/230782340-a1cd920a-d85a-4d3b-a500-182c587d6402.png">
 
-After annotation, split the images into train, valid and test set and export the them in TensorFlow Object Detection format.
+After annotation, split the images into train, valid and test set and export them in TensorFlow Object Detection format.
 
 <img width="508" alt="ratio" src="https://user-images.githubusercontent.com/101066418/230782753-59a90920-86f1-4d0e-9c98-92bfc3774f55.png">
 
@@ -38,11 +38,12 @@ After unzipping the file, there will be train, valid and test folders. In each f
 - In data folder, upload the train_labels.csv, valid_labels.csv and test_labels.csv created by the Roboflow and create a folder called images and upload the train, valid and test sets.
   <br><br>
 - Clone the Tensorflow API into the main folder Object_Detection.
-
+<br><br>
 - Download the generate_tfrecord.py from [link](https://github.com/techzizou/Train-Object-Detection-Model-TF-2.x "link") and upload it to the customTF2 folder.
 
 The structure of the workplace is as follows:
-<img width="334" alt="structure" src="https://user-images.githubusercontent.com/101066418/230780555-777142a2-a494-48cc-9c1a-d48a3115a6e7.png">
+
+<img width="321" alt="structure" src="https://user-images.githubusercontent.com/101066418/230784599-256f7fce-420f-4759-93db-e2a03c232aff.png">
 
 After installation of Tensorflow API, we can start building the drowsiness detection model by running active_fatigued.ipynb in this repository on Colab.
 
