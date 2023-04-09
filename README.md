@@ -64,5 +64,11 @@ Fatigued case:
 
 ![fatugued](https://user-images.githubusercontent.com/101066418/230783096-08792c3c-7b69-4ba1-87d8-43212317a484.png)
 
+## Real-time Drowsiness Detection
+
+After training the model on Colab, the code of real-time detection must be run on local laptop.
+
+This is the recording of using Real-time Drowsiness Detection: [video](https://github.com/ccmak514/drowsiness-detection/blob/main/Faster%20RCNN.mp4 "video")
+
 
 
